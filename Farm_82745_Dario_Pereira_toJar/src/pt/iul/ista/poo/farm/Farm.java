@@ -92,6 +92,11 @@ public class Farm implements Observer {
 			+ "Se tiveres alguma dúvida podes sempre voltar a ver essa mensagem apertando 'F1' a qualquer momento.\n"
 			+ "\n<html><body><p width='200px' align='center'>Desejamos um ótimo jogo!";
 
+	/**
+	 * 
+	 * @param max_x
+	 * @param max_y
+	 */
 	private Farm(int max_x, int max_y) {
 		if (max_x < MIN_X || max_y < MIN_Y)
 			throw new IllegalArgumentException();
